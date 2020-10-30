@@ -1,8 +1,8 @@
 FROM ubuntu:18.04
 RUN apt-get update -y
-RUN apt-get install -y unzip apache2 php5 libapache2-mod-php5 php5-ldap apache2-utils
+RUN apt-get install -y unzip apache2 php7 libapache2-mod-php7 php7-ldap apache2-utils
 RUN apt-get install -y wget
-RUN apt-get install -y php5-mysql
+RUN apt-get install -y php7-mysql
 RUN php5enmod mcrypt
 RUN php5enmod openssl
 RUN wget https://github.com/bbalet/jorani/archive/v1.0.0.tar.gz
