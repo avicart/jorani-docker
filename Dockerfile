@@ -1,4 +1,4 @@
-FROM ubuntu:15.10
+FROM ubuntu:18.04
 RUN apt-get update -y
 RUN apt-get install -y unzip apache2 php5 libapache2-mod-php5 php5-ldap apache2-utils
 RUN apt-get install -y wget
