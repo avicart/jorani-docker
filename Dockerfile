@@ -1,6 +1,7 @@
 FROM php
 RUN apt-get update -y
 RUN apt-get install -y wget
+RUN apt-get install -y apt-utils
 RUN apt-get install -y php7-mysql
 RUN php5enmod mcrypt
 RUN php5enmod openssl
